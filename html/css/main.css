@@ -1,0 +1,68 @@
+html { overflow:auto !important; }
+
+body {
+    background: none !important;
+    color: white !important;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 25vw;
+    background-color: rgb(31, 37, 46);
+    border-radius: 10px;
+    display: flex;
+}
+
+.select {
+    position: relative;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    margin-left: 17%;
+}
+
+select,img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 4%;
+}
+
+.column {
+    position: absolute;
+    left: 88%;
+    top: 15%;
+    transform: translate(-50%,-50%);
+    width: 20%;
+    height: 25%;
+    background-color: rgb(31, 37, 46);
+    border-radius: 10px;
+}
+
+.submit {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    color: white !important;
+}
+
+.close {
+    position: absolute;
+    left: 95%;
+    top: 1%;
+    transform: translate(-50%,-50%);
+    width: 2em;
+    height: 2em;
+}
+
+.colorPicker {
+    font-weight: bold;
+}

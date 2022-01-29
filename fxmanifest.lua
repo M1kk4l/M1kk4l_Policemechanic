@@ -9,15 +9,15 @@ ui_page "html/index.html"
 
 files {
     "html/index.html",
-    "html/css/style.css",
-    "html/js/javascript.js",
+    "html/css/main.css",
+    "html/js/main.js",
+    "html/img/*.png",
 }
 
 client_scripts {
     "callback/client.lua",
     "config.lua",
 	"client/main.lua",
-    "client/functions.lua"
 }
 
 server_scripts {

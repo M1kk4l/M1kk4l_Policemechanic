@@ -1,12 +1,13 @@
-# M1kk4l_Policemechanic
-Her er et simpelt Politi Mekaniker UI
+# **M1kk4l_policemechanic**
+Her er et simpelt Politi Mekaniker script.
 
-Husk at ændre progressbaren før du starter det!
+Hvis ikke du bruger samme progressbar som den er sat til, så husk at ændre den på linje **82** og **101**
 
-Car Color Picker er Lasse Christensen#0001`s kode!
+[**Showcase**](https://www.youtube.com/watch?v=OlmkTUniB14)
 
-Showcase: https://www.youtube.com/watch?v=pwkZLpitHW8
+## Medvirkende
+Color Picker er lavet af **Lasse Christensen#0001**
+
 ## Krav
-pNotify
-
-vRP
+- pNotify
+- vRP
