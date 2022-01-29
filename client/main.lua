@@ -79,8 +79,8 @@ end
 function RepairVeh()
     vehicle = GetVehiclePedIsIn(PlayerPedId())
 ---------------------------------------------------------------------------------------------
-    TriggerEvent('startProgress', '10', 'Reparerer køretøj...', 'rgb(3, 119, 252)') -- ÆNDRE DETTE HVIS DET IKKE ER DEN RIGTIGE PROGRESSBAR
----------------------------------------------------------------------------------------------
+    exports['progressBars']:startUI(10000, "Reparerer køretøj...") -- ÆNDRE DETTE HVIS DET IKKE ER DEN RIGTIGE PROGRESSBAR
+    ---------------------------------------------------------------------------------------------
     SetVehicleDoorOpen(vehicle, 4, false)
     FreezeEntityPosition(vehicle, true)
 
@@ -98,7 +98,7 @@ end
 
 function WashVeh(x,y,z)
 ---------------------------------------------------------------------------------------------
-    TriggerEvent('startProgress', '10', 'Vasker køretøj...', 'rgb(3, 119, 252)') -- ÆNDRE DETTE HVIS DET IKKE ER DEN RIGTIGE PROGRESSBAR
+exports['progressBars']:startUI(10000, "Vasker køretøj...") -- ÆNDRE DETTE HVIS DET IKKE ER DEN RIGTIGE PROGRESSBAR
 ---------------------------------------------------------------------------------------------
 
     FreezeEntityPosition(GetVehiclePedIsIn(PlayerPedId()), true)
