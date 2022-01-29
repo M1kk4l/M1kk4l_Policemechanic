@@ -98,7 +98,7 @@ end
 
 function WashVeh(x,y,z)
 ---------------------------------------------------------------------------------------------
-exports['progressBars']:startUI(10000, "Vasker køretøj...") -- ÆNDRE DETTE HVIS DET IKKE ER DEN RIGTIGE PROGRESSBAR
+    exports['progressBars']:startUI(10000, "Vasker køretøj...") -- ÆNDRE DETTE HVIS DET IKKE ER DEN RIGTIGE PROGRESSBAR
 ---------------------------------------------------------------------------------------------
 
     FreezeEntityPosition(GetVehiclePedIsIn(PlayerPedId()), true)
